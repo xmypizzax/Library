@@ -79,6 +79,10 @@ public class Library implements ILibrary { //class of the group of books the lib
 		sort();
 	}
 	
+	public void addBook(Book b) {
+		books.add(b);id++;
+	}
+	
 	public void sort() { //sorts library by id
 		ArrayList<IBook> copy = books;
 		ArrayList<IBook> temp = new ArrayList<IBook>();

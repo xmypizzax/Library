@@ -18,6 +18,8 @@ public interface ILibrary {
 	
 	public void reserveBook(Member m, Book b);
 	
+	public void addBook(Book b);
+	
 	public void removeBook(Book b);
 	
 	public void sort();
